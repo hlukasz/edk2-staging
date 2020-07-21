@@ -17,10 +17,6 @@
 
 #![allow(unused)]
 
-#[used]
-#[no_mangle]
-pub static _fltused : i32 = 0;
-
 extern crate uefi_rust_panic_lib;
 
 
